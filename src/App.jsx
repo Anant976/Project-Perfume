@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/Project-Perfume/">
       <div className="app">
         <Header cartCount={cartCount} />
         
